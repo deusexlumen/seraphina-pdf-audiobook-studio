@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files
+*.mp3
+*.wav
+output/
+temp/
+temp_audio/
+temp_chunks/
+
+# Test files
+test_output.*
+demo_output.*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs (example files only - don't commit large files)
+*.pdf
+!demo_input.pdf
+
+# Config
+config.json
+settings.json
