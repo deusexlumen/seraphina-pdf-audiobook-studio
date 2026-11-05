@@ -135,7 +135,12 @@ seraphina-pdf-audiobook-studio/
 
 ## 🧪 Tests
 
-Unit-Tests ausführen:
+Alle Unit-Tests ausführen (Discovery):
+```bash
+python -m unittest discover -s tests
+```
+
+Oder ein einzelnes Modul:
 ```bash
 python -m unittest tests.test_text_cleaner
 ```

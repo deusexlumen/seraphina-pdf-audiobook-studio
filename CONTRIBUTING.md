@@ -46,8 +46,10 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 pip install -r requirements-dev.txt  # If we add dev dependencies
 
-# Run tests
-python -m pytest tests/  # If we add tests
+# Run tests (stdlib unittest; no pytest required)
+python -m unittest discover -s tests
+# Or a single module:
+python -m unittest tests.test_text_cleaner
 ```
 
 ## Code Style
